@@ -1,0 +1,23 @@
+.header {
+	display: flex;
+	justify-content: center;
+	position: sticky;
+	width: 100%;
+	top: 0;
+	z-index: auto;
+
+	.header-content {
+		padding: 10px 35px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		.logo{
+			text-decoration: none;
+			color: #039be5;
+			font-weight: 700;
+			font-size: 27px;
+			padding: 0 20px;
+		}
+    }
+}
