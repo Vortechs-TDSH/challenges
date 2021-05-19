@@ -47,14 +47,51 @@
 }
 
 #container .container-singup .form-singup .check {
-  margin-top: 24px;
+  margin: 24px auto 0;
   background-color: #ece9e9;
-  width: 100%;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border-radius: 8px;
   font-size: small;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
 }
 
-#container .container-singup .form-singup .button-singup {
+#container .container-singup .form-singup .check .check-item {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+#container .container-singup .form-singup .check .check-item label {
+  margin: 0 10px;
+  text-align: left;
+}
+
+#container .container-singup .form-singup .check .check-item input {
+  width: 45px;
+}
+
+#container .container-singup .form-singup .button-signup {
   text-align: center;
   margin-left: 3%;
   width: 45%;
@@ -63,4 +100,4 @@
   border: solid 1px;
   border-radius: 8px;
 }
-/*# sourceMappingURL=singup.css.map */
+/*# sourceMappingURL=signup-paciente.css.map */

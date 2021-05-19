@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACall me</title>
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/singup.css">
+    <link rel="stylesheet" href="css/signup-paciente.css">
     <!-- Add material design css -->
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <!-- Add material icons: see https://fonts.google.com/icons -->
@@ -55,11 +55,15 @@
                 </label>
 
                 <div class="check">
-                    <input type="checkbox" name="" id="termosUso">
-                    <label for="termosUso">Li e concordo com os<a href="">Termos de uso</a> e <a href="">Políticas de Privacidade</a></label><br>
-                    <input type="checkbox" name="" id="autoriza">
-                    <label for="autoriza">Autorizo o uso dos meus dados para o uso dentro da plataforma</label>
-                
+                    <div class="check-item">
+                        <input type="checkbox" name="" id="termosUso">
+                        <label for="termosUso">Li e concordo com os <a href="">Termos de uso</a> e <a href="">Políticas de
+                                Privacidade.</a></label><br>
+                    </div>
+                    <div class="check-item">
+                        <input type="checkbox" name="" id="autoriza">
+                        <label for="autoriza">Autorizo o uso dos meus dados para o uso dentro da plataforma.</label>
+                    </div>
                 </div>
 
                 <button type="reset" class="button-signup">Cancelar</button>
