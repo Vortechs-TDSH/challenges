@@ -1,0 +1,79 @@
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .container-singup{
+       display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        width: 100%;
+        padding: 24px;
+        margin: auto;
+         .titulo{
+                text-align: center;
+            }
+        
+        .form-singup{
+            width: 35%;
+            margin: 10px auto;
+
+
+            input,label{
+                width: 100%;
+            }
+            input{
+                height: 21px;
+                padding: 8px;
+            }
+            
+            label{
+                margin-top: 30px;
+                
+            }
+            .option-signup{
+                input{
+                    width: 300px;
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+
+            .check{
+                margin: 24px auto 0;
+                background-color:  rgb(236, 233, 233);
+                width: 500px;
+                display: flex;
+                flex-direction: column;
+                border-radius: 8px;
+                font-size: small;
+                justify-content: center;
+                align-items: center;
+                .check-item{
+                    width: 400px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 auto;
+                    label{
+                        margin: 0 10px;
+                        text-align: left;
+                    }
+                    input{
+                        width: 45px;
+                    }
+                    
+                }
+            }
+
+            .button-signup{
+                text-align: center;
+                margin-left: 3%;
+                width: 45%;
+                margin-top: 24px;
+                padding: 12px 0;
+                border: solid 1px;
+                border-radius: 8px;
+            }
+        }    
+    }
+}
