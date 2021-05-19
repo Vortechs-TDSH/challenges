@@ -46,8 +46,19 @@
   margin-top: 30px;
 }
 
-#container .container-singup .form-singup .option-signup input {
-  width: 300px;
+#container .container-singup .form-singup .option-signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 664px;
+}
+
+#container .container-singup .form-singup .option-signup .cp {
+  width: 664px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,6 +66,35 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#container .container-singup .form-singup .option-signup .cp .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+}
+
+#container .container-singup .form-singup .option-signup .cp .item input {
+  width: 260px;
+}
+
+#container .container-singup .form-singup .option-signup .cp .ou {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  height: 90px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #container .container-singup .form-singup .check {

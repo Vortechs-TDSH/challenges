@@ -31,10 +31,29 @@
                 
             }
             .option-signup{
-                input{
-                    width: 300px;
+                display: flex;
+                flex-direction: column;
+                width: 664px;
+                .cp{
+                    width: 664px;
                     display: flex;
                     flex-direction: row;
+                    justify-content: space-between;
+                    .item{
+                        display: flex;
+                        width: 280px;
+                        input{
+                        width: 260px;
+                        }
+                    }
+                    .ou{
+                        display: flex;
+                        padding: 10px;
+                        height: 90px;
+                        text-align: center;
+                        align-items: center;
+                        justify-content: center
+                    }
                 }
             }
 
