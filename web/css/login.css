@@ -52,6 +52,17 @@
 }
 
 #container .container-login .form-login .reset-pass {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+#container .container-login .form-login .reset-pass a {
   font-weight: 500;
   text-decoration: none;
   color: #039be5;
