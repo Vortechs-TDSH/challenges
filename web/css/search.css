@@ -15,7 +15,7 @@
 
 #container .container-search .title-search {
   margin: 20px auto;
-  width: 1300px;
+  width: 1400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,7 +34,7 @@
 }
 
 #container .container-search .form-search {
-  width: 1300px;
+  width: 1450px;
   background-color: #eeecec;
   margin: 40px auto;
   display: -webkit-box;
