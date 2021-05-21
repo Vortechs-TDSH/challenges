@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACall me</title>
+    <link rel="stylesheet" href="css/search.css">
+    <!-- Add material design css -->
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <!-- Add material icons: see https://fonts.google.com/icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Add material design javascript -->
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+</head>
+<body>
+    <main id="container">
+        <div class="container-search">
+            <div class="title-search">
+            <h3>Fácil, rápido e seguro</h3>
+            <h1>Agende agora sua consulta</h1>
+            </div>
+            <form class="form-search">
+                <div class="item-search">
+                    <label for="nome">Nome do especialista:</label>
+                    <input type="text" id="nome" placeholder="Digite o nome...">
+                </div>
+                <div class="item-search">
+                    <label for="especializacao">Especialização:</label>
+                    <input type="text" id="especializacao" placeholder="Digite a especialização...">
+                </div>
+                <div class="item-search">
+                    <label for="dias">Disponibilidade de dias:</label>
+                    <input type="date" id="dias">
+                </div>
+                <div class="item-search" for="pagamento">
+                    <label for="pagamento">Forma de pagamento:</label>
+                    <select id="pagamento" class="select-search">
+                        <option value="dinheiro">Dinheiro</option>
+                        <option value="credito">Cartão de credito</option>
+                        <option value="debito">Cartão de debito</option>
+                    </select>
+                </div>
+                <div class="item-search" for="valor">
+                    <label for="valor">Preço da consulta:</label>
+                    <select id="valor" class="select-search">
+                        <option value="a200">Até R$200</option>
+                        <option value="a500">Até R$500</option>
+                        <option value="a800">Até R$800</option>
+                    </select>
+                </div>
+                <button type="submit" class="button-search"> Buscar</button>
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
