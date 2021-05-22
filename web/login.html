@@ -6,37 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACall me</title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/login.css">
-    <!-- Add material design css -->
-    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-    <!-- Add material icons: see https://fonts.google.com/icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- Add material design javascript -->
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet" />
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
 </head>
 
 <body>
-    <main id="container">
-        <div class="container-login">
-            <h1 class="titulo">Login</h1>
-            <p class="subText">Para continuar, inicie sua sessão com sua conta do ACall Me</p>
-            <form class="form-login">
-                <label>
-                    <h3>E-mail:</h3>
-                    <input type="text" placeholder="Digite seu e-mail..." required>
-                </label>
-                <label>
-                    <h3>Senha:</h3>
-                    <input type="email" name="email" placeholder="Digite sua senha..." required>
-                </label>
-                <div class="reset-pass">
-                <a href="./reset-password.html">Esqueceu a senha?</a>
-                </div>
-                <button type="submit" class="button-login">Acessar conta</button>
-                <p class="signup">Não tem cadastro?<a href="signup.html">Crie uma conta</a></p>    
-            </form>
-        </div>
-    </main>
+	<header class="px-md-3 px-lg-4">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="d-flex align-items-center text-black navbar-brand" href="index.html">
+					ACall me
+				</a>
+			</div>
+		</nav>
+	</header>
+	<main id="container">
+		<div class="container-login">
+			<h1 class="titulo">Login</h1>
+			<p class="subText">Para continuar, inicie sua sessão com sua conta do ACall Me</p>
+			<form class="form-login">
+				<label>
+					<h3>E-mail:</h3>
+					<input type="text" placeholder="Digite seu e-mail..." required>
+				</label>
+				<label>
+					<h3>Senha:</h3>
+					<input type="email" name="email" placeholder="Digite sua senha..." required>
+				</label>
+				<div class="reset-pass">
+				<a href="./reset-password.html">Esqueceu a senha?</a>
+				</div>
+				<button type="submit" class="button-login">Acessar conta</button>
+				<p class="signup">Não tem cadastro?<a href="signup.html">Crie uma conta</a></p>
+			</form>
+		</div>
+	</main>
 </body>
 
 </html>
