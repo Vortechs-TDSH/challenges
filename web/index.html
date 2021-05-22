@@ -39,27 +39,29 @@
             <span class="badge rounded-pill badge-notification bg-danger">1</span>
           </a>
     
-          <button class="btn dropdown-toggle px-2 d-sm-flex align-items-sm-center" data-mdb-ripple-color="dark" href="#" id="header-collapse"
-            data-mdb-toggle="dropdown" >
-            <img src="https://mdbootstrap.com/img/new/avatars/1.jpg" class="rounded-circle" height="32" alt="profile"
-              loading="lazy" />
-            <p class="text-capitalize d-none d-sm-flex pe-2 ps-1 mb-0">Luís Silva</p>
-          </button>
-          <ul class="dropdown-menu dropdown-menu-end shadow-1" aria-labelledby="header-collapse">
-            <li>
-              <button type="button" class="dropdown-item ripple" href="./profile-pacient.html">Perfil</button>
-            </li>
-            <li class="d-lg-none">
-              <button type="button" class="dropdown-item ripple" href="./profile-pacient.html">Agenda</button>
-            </li>
-            <li class="d-lg-none">
-              <button type="button" class="dropdown-item ripple" href="./profile-pacient.html">Chat</button>
-            </li>
-            <li><hr class="dropdown-divider my-0 text-reset divider"/></li>
-            <li>
-              <button type="button" class="dropdown-item ripple ripple-surface-danger" style="color: #ff0000" href="#" onclick="logout()">Logout</button>
-            </li>
-          </ul>
+          <div class="dropdown">
+            <button class="btn dropdown-toggle px-2 d-sm-flex align-items-sm-center" data-mdb-ripple-color="dark" href="#" id="header-collapse"
+              data-mdb-toggle="dropdown" >
+              <img src="https://mdbootstrap.com/img/new/avatars/1.jpg" class="rounded-circle" height="32" alt="profile"
+                loading="lazy" />
+              <p class="text-capitalize d-none d-sm-flex pe-2 ps-1 mb-0">Luís Silva</p>
+            </button>
+            <ul class="dropdown-menu shadow-1" aria-labelledby="header-collapse">
+              <li>
+                <button type="button" class="dropdown-item ripple" href="./profile-pacient.html">Perfil</button>
+              </li>
+              <li class="d-lg-none">
+                <button type="button" class="dropdown-item ripple" href="./profile-pacient.html">Agenda</button>
+              </li>
+              <li class="d-lg-none">
+                <button type="button" class="dropdown-item ripple" href="./profile-pacient.html">Chat</button>
+              </li>
+              <li><hr class="dropdown-divider my-0 text-reset divider"/></li>
+              <li>
+                <button type="button" class="dropdown-item ripple ripple-surface-danger" style="color: #ff0000" href="#" onclick="logout()">Logout</button>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
