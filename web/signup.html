@@ -52,98 +52,109 @@
 						</div>
 
 						<div class="tab-content mb-5">
-							<!-- form pacient -->
+							<div class="mb-3">
+								<label class="form-label mb-1" for="name">Nome completo*:</label>
+								<input type="text" id="name" placeholder="Ex: Guilherme Vieira" class="form-control" required onchange="handleChange(event, 'name')" />
+							</div>
+
+							<div class="mb-3">
+								<label class="form-label mb-1" for="email">E-mail*:</label>
+								<input type="email" id="email" placeholder="Ex: teste@gmail.com" class="form-control" required onchange="handleChange(event, 'email')" />
+							</div>
+
+							<div class="tab-pane fade show active" id="pills-pacient" role="tabpanel" aria-labelledby="tab-pacient">
 								<div class="mb-3">
-									<label class="form-label mb-1" for="name">Nome completo*:</label>
-									<input type="text" id="name" placeholder="Ex: Guilherme Vieira" class="form-control" required onchange="handleChange(event, 'name')" />
-								</div>
-
-								<div class="mb-3">
-									<label class="form-label mb-1" for="email">E-mail*:</label>
-									<input type="email" id="email" placeholder="Ex: teste@gmail.com" class="form-control" required onchange="handleChange(event, 'email')" />
-								</div>
-
-								<div class="tab-pane fade show active" id="pills-pacient" role="tabpanel" aria-labelledby="tab-pacient">
-									<div class="mb-3">
-										<label class="form-label mb-1" for="cpf">CPF *:</label>
-										<input type="text" id="cpf" placeholder="Ex: 111.111.111-11" maxlength="14" class="form-control"
-											onchange="handleChange(event, 'cpf')" />
-									</div>
-								</div>
-
-								<div class="tab-pane fade" id="pills-specialist" role="tabpanel" aria-labelledby="tab-specialist">
-									<div class="mb-3">
-										<label class="form-label mb-1" for="documentNumber">CPF ou CNPJ*:</label>
-										<input type="text" id="documentNumber" placeholder="Digite de acordo com seu tipo..." class="form-control"
-											onchange="handleChange(event, 'documentNumber')" />
-									</div>
-
-									<div class="mb-3">
-										<label class="form-label mb-1" for="docNumber">CRM ou CRP*:</label>
-										<input type="text" id="docNumber" placeholder="Digite de acordo com seu tipo..." class="form-control" maxlength="15"
-											onchange="handleChange(event, 'docNumber')" />
-									</div>
-								</div>
-
-								<div class="mb-3">
-									<label class="form-label mb-1" for="datebirth">Data de nascimento:</label>
-									<input type="date" id="datebirth" class="form-control datepickeer" placeholder="Ex: 08/02/2002"
-										onchange="handleChange(event, 'datebirth')" />
-									<div class="form-text" id="datebirth-helper">
-										Você precisa ter mais que 18 anos.
-									</div>
-								</div>
-
-								<div class="mb-3">
-									<label class="form-label mb-1" for="phone">Telefone:</label>
-									<input type="tel" id="phone" class="form-control" maxlength="15" placeholder="Ex: 11 91234-5678"
-										onchange="handleChange(event, 'phone')" />
-								</div>
-
-								<hr/>
-
-								<div class="mb-3">
-									<p>Gênero*:</p>
-									<div class="form-check form-check-inline mx-sm-1">
-										<input class="form-check-input" type="radio" required name="gender" id="masc" value="masc" />
-										<label class="form-check-label radio-value" for="masc">Masculino</label>
-									</div>
-
-									<div class="form-check form-check-inline mx-sm-1">
-										<input class="form-check-input" type="radio" required name="gender" id="fem" value="fem" />
-										<label class="form-check-label radio-value" for="fem">Feminino</label>
-									</div>
-
-									<div class="form-check form-check-inline mx-sm-1">
-										<input class="form-check-input" type="radio" required name="gender" id="notDef" value="notDef" />
-										<label class="form-check-label radio-value" for="notDef">Não definido</label>
-									</div>
-								</div>
-
-								<hr />
-
-								<div>
-									<div class="mb-2">
-										<label class="form-label mb-1" for="password">Senha*:</label>
-										<input type="password" placeholder="******" id="password" class="form-control" required onchange="handleChange(event, 'password')" />
-									</div>
-									<div class="mb-2">
-										<label class="form-label mb-1" for="confirmPassword">Confirme a senha*:</label>
-										<input type="password" placeholder="******" id="confirmPassword" class="form-control" required onchange="handleChange(event, 'confirmPassword')" />
-									</div>
-									<div class="form-text" id="datebirth-helper">
-										Sua senha deve conter:
-										<ul>
-											<li>Uma letra maiúscula</li>
-											<li>Uma letra minúscula</li>
-											<li>Um número</li>
-											<li>Um caractere especial (Ex: #, @, *, etc.)</li>
-											<li>6 caracteres</li>
-										</ul>
-									</div>
+									<label class="form-label mb-1" for="cpf">CPF *:</label>
+									<input type="text" id="cpf" placeholder="Ex: 111.111.111-11" maxlength="14" class="form-control"
+										onchange="handleChange(event, 'cpf')" />
 								</div>
 							</div>
-							<!---->
+
+							<div class="tab-pane fade" id="pills-specialist" role="tabpanel" aria-labelledby="tab-specialist">
+								<div class="mb-3">
+									<label class="form-label mb-1" for="documentNumber">CPF ou CNPJ*:</label>
+									<input type="text" id="documentNumber" placeholder="Digite de acordo com seu tipo..." class="form-control"
+										onchange="handleChange(event, 'documentNumber')" />
+								</div>
+
+								<div class="mb-3">
+									<label class="form-label mb-1" for="docNumber">CRM ou CRP*:</label>
+									<input type="text" id="docNumber" placeholder="Digite de acordo com seu tipo..." class="form-control" maxlength="15"
+										onchange="handleChange(event, 'docNumber')" />
+								</div>
+							</div>
+
+							<div class="mb-3">
+								<label class="form-label mb-1" for="datebirth">Data de nascimento:</label>
+								<input type="date" id="datebirth" class="form-control datepickeer" placeholder="Ex: 08/02/2002"
+									onchange="handleChange(event, 'datebirth')" />
+								<div class="form-text" id="datebirth-helper">
+									Você precisa ter mais que 18 anos.
+								</div>
+							</div>
+
+							<div class="mb-3">
+								<label class="form-label mb-1" for="phone">Telefone:</label>
+								<input type="tel" id="phone" class="form-control" maxlength="15" placeholder="Ex: 11 91234-5678"
+									onchange="handleChange(event, 'phone')" />
+							</div>
+
+							<hr/>
+
+							<div class="mb-3">
+								<p>Gênero*:</p>
+								<div class="form-check form-check-inline mx-sm-1">
+									<input class="form-check-input" type="radio" required name="gender" id="masc" value="masc" />
+									<label class="form-check-label radio-value" for="masc">Masculino</label>
+								</div>
+
+								<div class="form-check form-check-inline mx-sm-1">
+									<input class="form-check-input" type="radio" required name="gender" id="fem" value="fem" />
+									<label class="form-check-label radio-value" for="fem">Feminino</label>
+								</div>
+
+								<div class="form-check form-check-inline mx-sm-1">
+									<input class="form-check-input" type="radio" required name="gender" id="notDef" value="notDef" />
+									<label class="form-check-label radio-value" for="notDef">Não definido</label>
+								</div>
+							</div>
+
+							<hr />
+
+							<div>
+								<div class="mb-2">
+									<label class="form-label mb-1" for="password">Senha*:</label>
+									<input type="password" placeholder="******" id="password" class="form-control" required onchange="handleChange(event, 'password')" />
+								</div>
+								<div class="mb-2">
+									<label class="form-label mb-1" for="confirmPassword">Confirme a senha*:</label>
+									<input type="password" placeholder="******" id="confirmPassword" class="form-control" required onchange="handleChange(event, 'confirmPassword')" />
+								</div>
+								<div class="form-text" id="datebirth-helper">
+									Sua senha deve conter:
+									<ul>
+										<li>Uma letra maiúscula</li>
+										<li>Uma letra minúscula</li>
+										<li>Um número</li>
+										<li>Um caractere especial (Ex: #, @, *, etc.)</li>
+										<li>6 caracteres</li>
+									</ul>
+								</div>
+							</div>
+
+							<hr />
+
+							<div class="container py-3 mb-3">
+								<div class="form-check mx-sm-1">
+									<input class="form-check-input me-2" type="checkbox" id="userTerms" required />
+									<p>Li e concordo com os <a href="#" >termos de uso</a> e com a <a href="#">política de privacidade</a>.</p>
+								</div>
+								<div class="form-check mx-sm-1">
+									<input class="form-check-input me-2" type="checkbox" id="authorization" required />
+									<p>Autorizo o uso de eventuais dados sensíveis disponibilizados através da plataforma.</p>
+								</div>
+							</div>
+						</div>
 
 						<div class="mb-3">
 							<button type="submit" name="signup" class="btn btn-primary col-12 disabled"
