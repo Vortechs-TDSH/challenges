@@ -56,15 +56,12 @@ body {
   background-color: #f1f1f1;
 }
 
-body input:-webkit-autofill,
-body input:-webkit-autofill:hover,
-body input:-webkit-autofill:focus,
-body input:-webkit-autofill:active {
-  border-radius: 6px;
+body::-webkit-backdrop {
+  background-color: #fafafa;
 }
 
-body input:-webkit-autofill:disabled {
-  -webkit-text-fill-color: 0 0 0 30px #c5c4c4 inset !important;
+body::backdrop {
+  background-color: #fafafa;
 }
 
 button,
@@ -84,59 +81,49 @@ button,
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-@media print {
-  body {
-    background-color: #fff;
-  }
-}
-
-body::-webkit-backdrop {
-  background-color: #fafafa;
-}
-
-body::backdrop {
-  background-color: #fafafa;
-}
-
 h1 {
   font-weight: 700;
-  font-size: 1.875rem;
+  font-size: 1.875rem !important;
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.25rem !important;
   font-weight: 400;
 }
 
 h3 {
-  font-size: 1.125rem;
+  font-size: 1.125rem !important;
   font-weight: 400;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1rem !important;
 }
 
 h5 {
-  font-size: 0.875rem;
+  font-size: 0.875rem !important;
 }
 
 small {
-  font-size: 0.688rem;
+  font-size: 0.688rem !important;
 }
 
 p {
-  font-size: 0.938rem;
+  font-size: 0.938rem !important;
 }
 
 a {
   font-size: inherit;
   text-decoration: none;
-  color: #92929d !important;
+  color: #92929d;
   display: inline-block;
 }
 
 ul {
   list-style: none;
+}
+
+input {
+  border: 1px solid #333;
 }
 /*# sourceMappingURL=global.css.map */
