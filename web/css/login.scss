@@ -19,12 +19,3 @@ main {
 		color: rgba(3, 169, 244, 1);
 	}
 }
-
-.form-background {
-	background-color: #fff;
-
-	@media only screen and (max-width: 968px) {
-		background-color: transparent;
-		box-shadow: none;
-	}
-}
