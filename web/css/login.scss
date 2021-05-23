@@ -5,6 +5,10 @@ main {
 	.container {
 		max-width: 1268px;
 	}
+
+	@media only screen and (max-width: 968px) {
+		padding: 0;
+	}
 }
 
 .link {
@@ -13,5 +17,14 @@ main {
 	&:hover {
 		transition: 0.4s;
 		color: rgba(3, 169, 244, 1);
+	}
+}
+
+.form-background {
+	background-color: #fff;
+
+	@media only screen and (max-width: 968px) {
+		background-color: transparent;
+		box-shadow: none;
 	}
 }
