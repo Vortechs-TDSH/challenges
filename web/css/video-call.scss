@@ -1,0 +1,54 @@
+.btn-group {
+	max-width: 365px;
+}
+
+.calling-icons {
+	font-size: 1.25rem;
+}
+
+main {
+	width: 100%;
+	min-height: calc(100vh - 67px);
+
+	.calling-container {
+		border-right: thin solid #ccc;
+
+		.calling-video {
+			min-height: 600px;
+		}
+
+		@media only screen and (max-width: 768px) {
+			border: none;
+		}
+	}
+
+	.messages-container {
+		max-height: 750px;
+		overflow-y: scroll;
+	}
+
+	.message-wrapper {
+		display: flex;
+		justify-content: flex-start;
+
+		&.alt {
+			justify-content: flex-end;
+
+			.message-container {
+				color: #f7f8f8;
+				background-color: #a1a1a1;
+			}
+		}
+
+		.message-container {
+			background-color: #ebebeb;
+			color: #595a5a;
+			border-radius: 11px;
+			padding: 12px;
+
+			p {
+				font-size: 0.875rem !important;
+			}
+		}
+	}
+}
