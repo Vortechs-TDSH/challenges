@@ -2,6 +2,7 @@ main {
 	background-color: #f9f9f9;
 	min-height: calc(100vh - 55px);
 	padding: 30px 0;
+	margin-bottom: 30px;
 	.container {
 		max-width: 1268px;
 	}
@@ -11,11 +12,6 @@ main {
 	}
 }
 
-.link {
-	transition: 0.4s;
+.radio-value {
 	font-size: 0.875rem;
-	&:hover {
-		transition: 0.4s;
-		color: rgba(3, 169, 244, 1);
-	}
 }

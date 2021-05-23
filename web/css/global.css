@@ -126,4 +126,16 @@ ul {
 input {
   border: 1px solid #333;
 }
+
+.form-background {
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 968px) {
+  .form-background {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
 /*# sourceMappingURL=global.css.map */
