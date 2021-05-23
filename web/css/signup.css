@@ -1,3 +1,20 @@
+main {
+  background-color: #f9f9f9;
+  min-height: calc(100vh - 55px);
+  padding: 30px 0;
+  margin-bottom: 30px;
+}
+
+main .container {
+  max-width: 1268px;
+}
+
+@media only screen and (max-width: 968px) {
+  main {
+    padding: 0;
+  }
+}
+
 .radio-value {
   font-size: 0.875rem;
 }
