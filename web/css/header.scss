@@ -1,0 +1,13 @@
+header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	.navbar {
+		width: 100%;
+		.container-fluid {
+			width: 100%;
+			display: flex;
+			max-width: 1268px;
+		}
+	}
+}
