@@ -19,9 +19,8 @@ main {
 
 	@media only screen and (max-width: 768px) {
 		padding: 32px 0;
-		border: none;
 		min-height: auto;
-		border-radius: 0;
+		border: none;
 	}
 }
 
@@ -35,6 +34,7 @@ main {
 
 	@media only screen and (max-width: 768px) {
 		border-bottom: 1px solid #333;
+		border-radius: 0;
 	}
 }
 
@@ -45,8 +45,14 @@ main {
 
 .table-active {
 	cursor: pointer;
+	transition: background-color 0.1s;
+
+	&:active,
+	&:hover {
+		background-color: #ccc;
+	}
 }
 
-.data-icons {
+.data-icon {
 	font-size: 1rem;
 }
