@@ -6,17 +6,20 @@
 	font-size: 1.25rem;
 }
 
-.search-card {
-	max-width: 1128px;
+main {
 	width: 100%;
-	border: 1px solid #ccc;
-	margin-bottom: 15px;
+	max-width: 1248px;
+	.search-card {
+		width: 100%;
+		border: 1px solid #ccc;
+		margin-bottom: 15px;
 
-	.schedule-info {
-		border-left: 1px solid #ccc;
+		.schedule-info {
+			border-left: 1px solid #ccc;
 
-		@media only screen and (max-width: 968px) {
-			border: none;
+			@media only screen and (max-width: 968px) {
+				border: none;
+			}
 		}
 	}
 }
