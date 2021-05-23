@@ -30,7 +30,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-xl-5 col-md-8 col-12">
-					<form class="bg-white rounded shadow-1 px-4 px-sm-5 pt-5 pb-3" onsubmit="handleSubmit(event)">
+					<form class="form-background shadow-1 rounded px-4 px-sm-5 pt-5 pb-3" onsubmit="handleSubmit(event)">
 						<div class="mb-4 text-center">
 							<h2 class="text-primary">Acesse sua conta</h2>
 							<p>Para continuar, inicie sua sesão com sua conta na <strong>ACall me</strong></p>
@@ -55,7 +55,7 @@
 						</div>
 
 						<div class="mb-3">
-							<button type="submit" class="btn btn-primary col-12" data-mdb-ripple-color="dark">Fazer login</button>
+							<button type="submit" name="login" class="btn btn-primary col-12 disabled" data-mdb-ripple-color="dark">Fazer login</button>
 						</div>
 
 						<div class="row mb-3 d-flex justify-content-between">
@@ -86,6 +86,10 @@
 	</main>
 </body>
 <script type="text/javascript">
+	const emailElement = document.getElementById('email')
+	const passwordElement = document.getElementById('password')
+	const signInButtonElement = document.getElementsByName('login')[0]
+
 	const formValues = {
 		email: '',
 		password: ''
@@ -93,7 +97,26 @@
 
 	function handleChange(e, field) {
 		const inputValue = e.target.value
-		formValues[field] = inputValue
+
+		if (field === 'email') {
+			const validEmail = inputValue.match(/^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/g)
+
+			if (!validEmail || !inputValue.trim()) {
+				emailElement.classList.add('is-invalid')
+				signInButtonElement.classList.add('disabled')
+				return
+			}
+
+			emailElement.classList.remove('is-invalid')
+			signInButtonElement.classList.remove('disabled')
+			emailElement.classList.add('is-valid')
+		}
+
+		if (field === 'password') {
+			passwordElement.classList.add('is-valid')
+		}
+
+		return formValues[field] = inputValue
 	}
 
 	function handleSubmit(e) {
