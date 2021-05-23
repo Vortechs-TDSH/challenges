@@ -1,0 +1,118 @@
+.wrapper {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+}
+
+.wrapper section {
+  width: 100%;
+  max-width: 1248px;
+}
+
+.group-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.group-cards .card {
+  max-width: 350px;
+}
+
+.group-cards .card img {
+  width: 350px;
+}
+
+.group-cards .card-footer .btn {
+  width: 42px;
+  height: 42px;
+}
+
+.group-cards .card-footer .btn .social-icon {
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .group-cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .group-cards .card {
+    margin-bottom: 16px;
+  }
+}
+
+.display-1 {
+  font-size: 2.7rem !important;
+}
+
+header {
+  z-index: 2;
+  position: absolute;
+}
+
+.bg-image {
+  max-height: 100vh;
+}
+
+.results-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .results-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.results-container .result-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.results-container .result-info i {
+  margin-bottom: 16px;
+}
+
+.results-container .result-info .text-muted {
+  font-size: 1.125rem !important;
+}
+/*# sourceMappingURL=landing.css.map */
