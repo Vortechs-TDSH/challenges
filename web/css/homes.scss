@@ -1,0 +1,52 @@
+main {
+	width: 100%;
+	max-width: 1248px;
+	margin-bottom: 30px;
+}
+
+.profile-image {
+	border-radius: 50%;
+}
+
+.cards-container,
+.schedule-container {
+	min-height: 500px;
+	border: 1px solid #333;
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	@media only screen and (max-width: 768px) {
+		padding: 32px 0;
+		border: none;
+		min-height: auto;
+		border-radius: 0;
+	}
+}
+
+.cards-container {
+	border-top-left-radius: 11px;
+	border-bottom-left-radius: 11px;
+
+	.cards-group {
+		width: 100%;
+	}
+
+	@media only screen and (max-width: 768px) {
+		border-bottom: 1px solid #333;
+	}
+}
+
+.schedule-container {
+	border-top-right-radius: 11px;
+	border-bottom-right-radius: 11px;
+}
+
+.table-active {
+	cursor: pointer;
+}
+
+.data-icons {
+	font-size: 1rem;
+}

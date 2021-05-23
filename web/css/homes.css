@@ -1,0 +1,65 @@
+main {
+  width: 100%;
+  max-width: 1248px;
+  margin-bottom: 30px;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.cards-container,
+.schedule-container {
+  min-height: 500px;
+  border: 1px solid #333;
+  padding: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .cards-container,
+  .schedule-container {
+    padding: 32px 0;
+    border: none;
+    min-height: auto;
+    border-radius: 0;
+  }
+}
+
+.cards-container {
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+}
+
+.cards-container .cards-group {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .cards-container {
+    border-bottom: 1px solid #333;
+  }
+}
+
+.schedule-container {
+  border-top-right-radius: 11px;
+  border-bottom-right-radius: 11px;
+}
+
+.table-active {
+  cursor: pointer;
+}
+
+.data-icons {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=homes.css.map */
