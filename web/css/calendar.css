@@ -1,0 +1,41 @@
+.table-responsive {
+  width: 100%;
+  max-width: 1268px;
+}
+
+.table-responsive td {
+  cursor: pointer;
+}
+
+.table-responsive td:active {
+  background-color: #ccc;
+}
+
+.table-header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.table-header-container :nth-child(2) {
+  padding: 0 15px;
+}
+
+.table-header-container :first-child:hover,
+.table-header-container :last-child:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.table-header-container .btn-blue {
+  color: #1266f1;
+}
+/*# sourceMappingURL=calendar.css.map */

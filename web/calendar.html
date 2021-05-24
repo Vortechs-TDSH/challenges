@@ -8,7 +8,7 @@
 	<title>ACall me</title>
 	<link rel="stylesheet" href="css/global.css" />
 	<link rel="stylesheet" href="css/header.css" />
-	<link rel="stylesheet" href="css/video-call.css" />
+	<link rel="stylesheet" href="css/calendar.css" />
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet" />
@@ -43,8 +43,8 @@
 					</a>
 
 					<div class="dropdown">
-						<button class="btn dropdown-toggle px-2 d-sm-flex align-items-sm-center" data-mdb-ripple-color="dark"
-							href="#" id="header-collapse" data-mdb-toggle="dropdown">
+						<button class="btn dropdown-toggle px-2 d-sm-flex align-items-sm-center" data-mdb-ripple-color="dark" href="#"
+							id="header-collapse" data-mdb-toggle="dropdown">
 							<img src="https://mdbootstrap.com/img/new/avatars/1.jpg" class="rounded-circle" height="32" alt="profile"
 								loading="lazy" />
 							<p class="text-capitalize d-none d-sm-flex pe-2 ps-1 mb-0">Luís Silva</p>
@@ -73,64 +73,95 @@
 		</nav>
 	</header>
 
-	<main class="container-fluid row g-0">
-		<div class="col-md-8 col-lg-9 d-flex flex-column calling-container">
-			<div class="calling-info text-center pt-3">
-				<h3 class="text-muted">Chamada com José Luiz</h3>
-				<p>Atenção: essa chamada não está sendo gravada</p>
-			</div>
-			<div class="bg-black d-flex align-items-stretch flex-fill calling-video">
-				<video src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"></video>
-			</div>
-			<div class="align-items-end py-4">
-				<div class="d-flex justify-content-center">
-					<button class="btn btn-floating mx-1" data-mdb-ripple-color="dark">
-						<i class="fas fa-video-slash calling-icons"></i>
-					</button>
-					<button class="btn btn-floating mx-1 text-danger" data-mdb-ripple-color="dark">
-						<i class="fas fa-phone calling-icons"></i>
-					</button>
-					<button class="btn btn-floating mx-1" data-mdb-ripple-color="dark">
-						<i class="fas fa-microphone-slash calling-icons"></i>
-					</button>
-				</div>
-			</div>
+	<div class="px-2 px-md-5 d-flex flex-column align-items-center">
+		<div class="col-md-6 py-5 text-center">
+			<h1>Esta é a sua agenda, <strong>dr. Luís Silva</strong></h1>
+			<h5 class="text-muted">Use essa página para ver a sua agenda completa</h5>
 		</div>
-		<aside class="col-md-4 col-lg-3 d-none d-md-flex flex-fill flex-column">
-			<div class="d-flex flex-column flex-fill p-2">
-				<div class="messages-container">
-				</div>
-			</div>
-			<div class="input-group">
-				<input type="text" class="form-control" placeholder="Digite uma mensagem..." />
-				<button class="btn btn-dark input-group-text" id="basic-addon2"><i class="far fa-paper-plane"></i></button>
-			</div>
-		</aside>
-	</main>
+
+		<div class="table-responsive">
+			<table class="table">
+				<thead>
+					<tr>
+						<th scope="row" colspan="7">
+							<div class="table-header-container">
+								<button class="btn btn-floating btn-blue"><i class="fas fa-angle-left fa-lg"></i></button>
+								<h3 class="text-center mb-0">Maio 2021</h3>
+								<button class="btn btn-floating btn-blue"><i class="fas fa-angle-right fa-lg"></i></button>
+							</div>
+						</th>
+					</tr>
+					<tr class="text-center">
+						<th scope="col">Dom</th>
+						<th scope="col">Seg</th>
+						<th scope="col">Ter</th>
+						<th scope="col">Qua</th>
+						<th scope="col">Qui</th>
+						<th scope="col">Sex</th>
+						<th scope="col">Sab</th>
+					</tr>
+				</thead>
+				<tbody class="text-center">
+					<tr>
+						<td class="text-muted">25</td>
+						<td class="text-muted">26</td>
+						<td class="text-muted">27</td>
+						<td class="text-muted">28</td>
+						<td class="text-muted">29</td>
+						<td class="text-muted">30</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+						<td class="table-active">5</td>
+						<td>6</td>
+						<td>7</td>
+						<td>8</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>10</td>
+						<td>11</td>
+						<td>12</td>
+						<td class="table-active">13</td>
+						<td class="table-active">14</td>
+						<td>15</td>
+					</tr>
+					<tr>
+						<td class="table-active">16</td>
+						<td>17</td>
+						<td>18</td>
+						<td>19</td>
+						<td>20</td>
+						<td class="table-active font-weight-bold">21</td>
+						<td>22</td>
+					</tr>
+					<tr>
+						<td class="text-black">23</td>
+						<td>24</td>
+						<td>25</td>
+						<td>26</td>
+						<td>27</td>
+						<td>28</td>
+						<td class="table-active">29</td>
+					</tr>
+					<tr>
+						<td>30</td>
+						<td>31</td>
+						<td class="text-muted">1</td>
+						<td class="text-muted">2</td>
+						<td class="text-muted">3</td>
+						<td class="text-muted">4</td>
+						<td class="text-muted">5</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
 </body>
 <script type="text/javascript">
-	const currentNames = ['Guilherme', 'José Luiz']
-	const messagesContainerElement = document.getElementsByClassName('messages-container')[0]
-	const messages = []
-
-	for (let i = 0; i <= 15; i++) {
-		const randomPosition = Math.floor(Math.random() * currentNames.length)
-
-		messages.push(`
-			<div class="message-wrapper my-2 ${!randomPosition && 'alt'}">
-				<div class="col-md-11 col-lg-8 message-container">
-					<h5>${currentNames[randomPosition]}</h5>
-					<p class="my-1 text-break message-content">Segue cronograma em anexo</p>
-					<div class="d-flex justify-content-end">
-						<p class="mb-0"><small>07:00</small></p>
-					</div>
-				</div>
-			</div>
-		`)
-	}
-
-	messagesContainerElement.innerHTML = messages.join('')
-
 	function logout() {
 		alert('Você foi deslogado')
 	}

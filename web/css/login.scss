@@ -1,0 +1,21 @@
+main {
+	background-color: #f9f9f9;
+	min-height: calc(100vh - 55px);
+	padding: 30px 0;
+	.container {
+		max-width: 1268px;
+	}
+
+	@media only screen and (max-width: 968px) {
+		padding: 0;
+	}
+}
+
+.link {
+	transition: 0.4s;
+	font-size: 0.875rem;
+	&:hover {
+		transition: 0.4s;
+		color: rgba(3, 169, 244, 1);
+	}
+}

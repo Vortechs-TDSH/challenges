@@ -1,0 +1,63 @@
+.btn-group {
+  max-width: 365px;
+}
+
+.calling-icons {
+  font-size: 1.25rem;
+}
+
+main {
+  width: 100%;
+  min-height: calc(100vh - 67px);
+}
+
+main .calling-container {
+  border-right: thin solid #ccc;
+}
+
+main .calling-container .calling-video {
+  min-height: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+  main .calling-container {
+    border: none;
+  }
+}
+
+main .messages-container {
+  max-height: 850px;
+  overflow-y: scroll;
+}
+
+main .message-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+main .message-wrapper.alt {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main .message-wrapper.alt .message-container {
+  color: #f7f8f8;
+  background-color: #a1a1a1;
+}
+
+main .message-wrapper .message-container {
+  background-color: #ebebeb;
+  color: #595a5a;
+  border-radius: 11px;
+  padding: 12px;
+}
+
+main .message-wrapper .message-container p {
+  font-size: 0.875rem !important;
+}
+/*# sourceMappingURL=video-call.css.map */
