@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/global.css" />
 	<link rel="stylesheet" href="css/header.css" />
 	<link rel="stylesheet" href="css/search.css" />
+	<link rel="stylesheet" href="css/calendar.css" />
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet" />
@@ -240,7 +241,7 @@
 						</p>
 					</div>
 					<div class="col-lg-2 d-flex flex-column align-items-center justify-content-between schedule-info pt-md-3 pb-2">
-						<button type="button" class="btn btn-primary btn-lg-block mb-3">Agendar</button>
+						<button type="button" class="btn btn-primary btn-lg-block mb-3" data-mdb-toggle="modal" data-mdb-target="#scheduleModal">Agendar</button>
 						<div class="d-flex flex-column">
 							<small class="text-center mb-2">Métodos de pagamento:</small>
 							<div class="d-flex justify-content-center">
@@ -260,6 +261,141 @@
 									<i class="fas fa-qrcode payment-icon"></i>
 								</button>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal" tabindex="-1" id="scheduleModal">
+				<div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title">Realizar agendamento</h4>
+							<button type="button" class="btn btn-floating btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<div class="d-flex">
+								<div class="col-3 p-lg-0 d-flex flex-fill align-items-baseline  align-items-md-center">
+									<img src="https://mdbootstrap.com/img/new/avatars/4.jpg" class="img-fluid" />
+								</div>
+								<div class="col-6 d-flex flex-column flex-fill ms-2">
+									<div>
+										<h5 class="mb-1">Marianne Moqueire</h5>
+										<p class="text-muted">Psicóloga, Psiquiatra</p>
+									</div>
+									<p>
+										Sou a doutora mais maneiro daqui, simplesmente pq eu sempre gostei de batata.
+										Sou PHD em:<br />
+										- Ser top<br />
+										- Ser muito top<br />
+										- Ser absolutament topzera sabe
+									</p>
+									<hr/>
+									<div>
+										<p class="mb-2">Métodos de pagamento:</p>
+										<div class="d-flexr">
+											<button class="btn btn-outline-success btn-floating" data-mdb-ripple-color="dark">
+												<i class="fas fa-money-bill-wave payment-icon"></i>
+											</button>
+											<button class="btn btn-outline-success btn-floating mx-1" data-mdb-ripple-color="dark">
+												<i class="far fa-accessible-icon fa-credit-card payment-icon"></i>
+											</button>
+											<button class="btn btn-outline-success btn-floating mx-1" data-mdb-ripple-color="dark">
+												<i class="fas fa-qrcode payment-icon"></i>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<hr />
+							<div class="d-flex flex-column align-items-center">
+								<div class="text-center">
+									<h5 class="mb-1">Datas disponíveis</h5>
+									<p class="text-muted">Escolha uma data no calendário que esteja disponível</p>
+								</div>
+								<div class="table-responsive w-100">
+									<table class="table text-center">
+										<thead>
+											<tr>
+												<th scope="row" colspan="7">
+													<div class="table-header-container">
+														<button class="btn btn-floating btn-blue"><i class="fas fa-angle-left fa-lg"></i></button>
+														<h3 class="text-center mb-0">Maio 2021</h3>
+														<button class="btn btn-floating btn-blue"><i class="fas fa-angle-right fa-lg"></i></button>
+													</div>
+												</th>
+											</tr>
+											<tr>
+												<th scope="col">Dom</th>
+												<th scope="col">Seg</th>
+												<th scope="col">Ter</th>
+												<th scope="col">Qua</th>
+												<th scope="col">Qui</th>
+												<th scope="col">Sex</th>
+												<th scope="col">Sab</th>
+											</tr>
+										</thead>
+										<tbody class="text-center">
+											<tr>
+												<td class="text-muted">25</td>
+												<td class="text-muted">26</td>
+												<td class="text-muted">27</td>
+												<td class="text-muted">28</td>
+												<td class="text-muted">29</td>
+												<td class="text-muted">30</td>
+												<td>1</td>
+											</tr>
+											<tr>
+												<td>2</td>
+												<td>3</td>
+												<td>4</td>
+												<td>5</td>
+												<td>6</td>
+												<td>7</td>
+												<td>8</td>
+											</tr>
+											<tr>
+												<td>9</td>
+												<td>10</td>
+												<td>11</td>
+												<td>12</td>
+												<td>13</td>
+												<td>14</td>
+												<td>15</td>
+											</tr>
+											<tr>
+												<td>16</td>
+												<td>17</td>
+												<td>18</td>
+												<td>19</td>
+												<td>20</td>
+												<td class="table-active font-weight-bold">21</td>
+												<td>22</td>
+											</tr>
+											<tr>
+												<td>23</td>
+												<td>24</td>
+												<td>25</td>
+												<td>26</td>
+												<td>27</td>
+												<td>28</td>
+												<td>29</td>
+											</tr>
+											<tr>
+												<td>30</td>
+												<td>31</td>
+												<td>1</td>
+												<td>2</td>
+												<td>3</td>
+												<td>4</td>
+												<td>5</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary">Agendar</button>
 						</div>
 					</div>
 				</div>
