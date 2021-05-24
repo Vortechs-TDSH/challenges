@@ -17,6 +17,10 @@ main .search-card {
   margin-bottom: 15px;
 }
 
+main .search-card .img-fluid {
+  width: 300px;
+}
+
 main .search-card .schedule-info {
   border-left: 1px solid #ccc;
 }
