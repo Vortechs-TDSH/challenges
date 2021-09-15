@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3045A3D6-4F01-6CC2-BFCE-2E4FF968B90C" containerWithKeyObject="4532304A-1F06-1C30-0B32-CBA7DA1B50F0" localFKIndex="E27BF145-7367-AF25-235C-09501ABED962" name="FK_CLG_PRONTUARIO_CHAMADA">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>8FCCDA77-133E-4C9C-B656-B1EAF0BCCB1A</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<referredTableLongName>T_CLG_CHAMADA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58D865EA-8297-36C7-4AE7-559E7D5FC017</referredTableID>
+<keyObject>AC78B779-40EA-FC34-AC76-6D6BFDAE2782</keyObject>
+<referredKeyID>AC78B779-40EA-FC34-AC76-6D6BFDAE2782</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_chamada</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

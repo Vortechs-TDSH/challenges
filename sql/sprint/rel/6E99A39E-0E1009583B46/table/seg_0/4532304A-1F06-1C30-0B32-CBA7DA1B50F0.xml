@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4532304A-1F06-1C30-0B32-CBA7DA1B50F0" name="T_CLG_PRONTUARIO">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>28DF3F2C-D734-D144-5D12-CB1DC8FBA4C1</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_prontuario" id="435E0C5A-88D9-DC86-6C0C-4D7F6E185CA9">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>3925B9F3-E98F-0237-B1D0-CCE0BB89065D</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_prontuario" id="54763FEB-2500-0217-A61D-BF00EF4235BE">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>C87500FE-6C89-6585-98D9-24B6499084E7</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_comentario" id="AF814BB0-4E73-DD1F-FAEA-9B28AA8D322B">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>282DB8A3-DF95-D802-7965-54EFA0341608</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_diagnostico" id="53DBF21B-804A-A966-197D-281676E4D4CE">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>AEB78046-69BC-A218-0663-E32655DA7760</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_chamada" id="52903FB7-237C-94BF-B6C0-1242D108CF40">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>25E496D2-5C5C-DDD4-CAB2-E66CB650F5A5</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3045A3D6-4F01-6CC2-BFCE-2E4FF968B90C" referredColumn="F6128A34-9481-D2FF-6B9B-723D75C895D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D90476EA-2CF2-C873-5469-5C47A918F055" name="PK_CLG_PRONTUARIO">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>1A71FAC3-080B-08A7-8D5F-B03AA5CA9342</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="435E0C5A-88D9-DC86-6C0C-4D7F6E185CA9"/>
+<colUsage columnID="52903FB7-237C-94BF-B6C0-1242D108CF40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E27BF145-7367-AF25-235C-09501ABED962" name="FK_CLG_PRONTUARIO_CHAMADA">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>8FCCDA77-133E-4C9C-B656-B1EAF0BCCB1A</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52903FB7-237C-94BF-B6C0-1242D108CF40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

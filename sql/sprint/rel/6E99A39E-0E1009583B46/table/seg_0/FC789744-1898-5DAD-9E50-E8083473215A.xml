@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC789744-1898-5DAD-9E50-E8083473215A" name="T_CLG_AGENDA">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>08B6828B-32FB-B03F-9FAB-D45D430F459B</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_agenda" id="24B9184F-75F7-E24D-38AC-430F0ADBE5D9">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>F0319E77-6C91-35B4-365C-6990E6840062</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_consulta" id="346F8358-3172-FE53-3A26-386168D90DA2">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>271C195E-4EE5-D12E-BC53-A0EF4FA9216D</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44D6583D-9FC2-E8AD-F0DC-700F75A6CA75" referredColumn="D7D4B160-A98F-F331-ABD9-63ADEC7F81B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70D25BA8-3556-2145-2DB5-67100253C794" name="PK_CLG_AGENDA">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>2E750F10-217D-195D-A98E-44201A6F5C88</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24B9184F-75F7-E24D-38AC-430F0ADBE5D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="107AC7C3-86E0-6A43-7BEC-158E3FF0D8F0" name="FK_CLG_AGENDA_CONSULTA">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>34EF4980-B72D-3F83-C083-D9E0F57D2F39</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="346F8358-3172-FE53-3A26-386168D90DA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

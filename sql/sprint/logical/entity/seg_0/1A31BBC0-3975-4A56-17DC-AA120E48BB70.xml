@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A31BBC0-3975-4A56-17DC-AA120E48BB70" name="T_CLG_CONSULTA">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 11:49:09 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_consulta" id="8E633E75-120E-94E7-AA7C-D2AC6E0CF0F6">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 11:52:14 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_consulta" id="DB835BF6-F399-0370-3E71-849944C63141">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:09:25 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_consulta" id="4DD1BE28-5B14-D61A-9596-FD786EC33A07">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:10:55 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_paciente" id="56696B6F-0066-16CA-F663-6D4E9F2B6B64">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:24:39 UTC</createdTime>
+<generatorID>EC65BBCE-8B2F-A434-731D-0D9C8929DA0B</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<referedAttribute>F89F784B-B178-18FF-F958-F35340A461DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_especialista" id="EF8DCA4A-A3C8-588C-F450-FC2C6FCBBFF8">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:24:47 UTC</createdTime>
+<generatorID>EFD6B65F-8A1A-67FC-CE2D-5A6CE4978279</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<referedAttribute>573AC730-B879-8879-54A6-AD2C512631D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="994EC7E5-41E3-301A-D583-2FB2638CAEC7" name="T_CHALLENGE_CONSULTA PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 11:53:30 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E633E75-120E-94E7-AA7C-D2AC6E0CF0F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86256550-77B5-988A-AAD8-E38142B434B2" name="T_CLG_PACIENTE">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>5FE22482-04F8-67C2-DE98-D271DA88E084</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_paciente" id="11C26D52-0C83-0AFD-35D6-0434D8F0738C">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>F89F784B-B178-18FF-F958-F35340A461DB</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_paciente" id="5F30DF90-68D2-6AF3-B265-C888B0C12639">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>456586E9-DC41-44A5-2012-C090109203B7</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="1BE1DCA1-9802-8721-8665-3ACEF7AB4243">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>9CA56984-113F-0C9A-3733-49DE67EE5DA4</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_senha" id="ACE6C947-359C-11F9-6652-59B8B47D7D11">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>3C377480-1BED-7826-7EBD-173E6FDB0577</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="431AC21B-9345-1541-4E4B-24DD9AD4B662">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>BBCEF7D5-06C7-3052-2FA9-15F65E50111F</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_genero" id="411E6743-326A-15F5-7782-6369F22F5656">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>44B5AF02-8D8B-2D3E-AFB8-9FAE709C60A2</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cpf" id="C80F8637-44D9-CE7D-BE00-3C52E9A839D7">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>EAD8719D-E4FF-3392-8F62-9244628A9745</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="E7E0E10D-70CD-6B2F-75F2-C1ADCBD08EEF">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>1036642E-27CA-6F7C-0EA7-D448321B9979</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone_dd" id="0AE1984B-32E4-7C66-F5AF-574944F5FDB7">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>1EB4DA9E-4402-992D-E7BC-36294C00E631</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C403B54-6D76-08D8-0DBE-C85F69E9A96B" name="PK_CLG_PACIENTE">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>C2D9C616-B05D-2549-67E8-157C4B6EDD0A</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11C26D52-0C83-0AFD-35D6-0434D8F0738C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56475696-195E-68BE-025C-A646F4B7BD44" name="UN_CLG_PACIENTE_EMAIL">
+<createdBy>Henrique</createdBy>
+<createdTime>2021-09-08 13:20:49 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BE1DCA1-9802-8721-8665-3ACEF7AB4243"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3EE6AA0-81E3-22C9-E9AA-A9614F2EE1AD" name="UN_CLG_PACIENTE_CPF">
+<createdBy>Henrique</createdBy>
+<createdTime>2021-09-08 13:22:24 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C80F8637-44D9-CE7D-BE00-3C52E9A839D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

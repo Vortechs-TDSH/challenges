@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28DF3F2C-D734-D144-5D12-CB1DC8FBA4C1" name="T_CLG_PRONTUARIO">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 11:50:52 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_prontuario" id="3925B9F3-E98F-0237-B1D0-CCE0BB89065D">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 11:52:45 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_prontuario" id="C87500FE-6C89-6585-98D9-24B6499084E7">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:13:41 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_comentario" id="282DB8A3-DF95-D802-7965-54EFA0341608">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:14:14 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_diagnostico" id="AEB78046-69BC-A218-0663-E32655DA7760">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:14:20 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_chamada" id="25E496D2-5C5C-DDD4-CAB2-E66CB650F5A5">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:28:13 UTC</createdTime>
+<generatorID>8FCCDA77-133E-4C9C-B656-B1EAF0BCCB1A</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<referedAttribute>58608BA0-5951-D079-4F45-E53656E7F830</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1A71FAC3-080B-08A7-8D5F-B03AA5CA9342" name="T_CHALLENGE_PRONTUARIO PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 11:53:58 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3925B9F3-E98F-0237-B1D0-CCE0BB89065D</attributeRef>
+<attributeRef>25E496D2-5C5C-DDD4-CAB2-E66CB650F5A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

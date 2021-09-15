@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F75D3A2-2177-D44F-CB32-4CEBBD1A8534" name="T_CLG_ESPECIALISTA">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>6714B237-CE4F-973C-68FC-148CA5500B48</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_especialista" id="BBBCE7A5-A572-97EC-0633-142293DAA2DE">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>573AC730-B879-8879-54A6-AD2C512631D5</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_especialista" id="F6ACFD66-BD5E-1D32-8049-E9C2D95FDD0C">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>632B3675-4CAF-027C-6A37-A899EC757626</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="1455D473-46C8-B6C5-AFB4-32A179169EF7">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>8D370304-D4AB-B28E-5511-AB23F36F6880</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_senha" id="EF237457-AACD-6AB4-2271-C3040CCCA883">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>2863621C-3EFB-A6A3-B9FE-7FF8785B29C1</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="51BEF6B4-FB98-2A44-B7B5-E22C12878B13">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>FE4C0F1F-D5EB-0171-77AC-5EA060B5C1C7</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_genero" id="ED0D74DD-D270-2E12-3FF2-18A826D0A2A8">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>F047079E-41F0-6E07-AF87-85B3C801F684</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cnpj" id="C6E616AB-A898-C4EA-CA8F-A10539D47712">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>FC691481-178F-42E4-CADE-1F8B454CE315</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cpf" id="DE604826-65DE-B8AD-0AD5-B82BF54B2546">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>0E736683-2BDB-A51D-13FF-C49C25600DE8</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="46E7591A-845B-548E-51AB-CE6139426A18">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>35A72ED4-69CD-7CEE-FEB7-1A6C046E604F</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone_dd" id="3A00705C-5ABD-B93E-0E5E-D9AB07DE7CD0">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>90D6DAFE-5106-8A2B-3478-10764F1DCD79</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_especialidade" id="82D477A7-EFBA-8F9E-0258-BC22E07AD6DB">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>1AD60528-A797-1D40-3430-FA3F3844E05B</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_crp" id="CED8B175-B5AE-EBB3-3294-DAEF03D3E9FF">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>A0393BB7-8A0A-9FF8-1B51-A4F59AAB1C46</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_crm" id="F055CB93-BE1A-C730-5629-63B3CE1D298F">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>617B613D-7094-766F-8628-714D73C4970A</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4C69DDE-0F2D-636E-B8DC-1D26C6258A6A" name="T_CHALLENGE_ESPECIALISTA_PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>0EDE86DA-71C3-8EA0-0A05-9DCB71D1C008</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBBCE7A5-A572-97EC-0633-142293DAA2DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E4143C4-2C50-47AF-AC6C-80C62584F19A" name="UN_CLG_ESPECIALISTA">
+<createdBy>Henrique</createdBy>
+<createdTime>2021-09-08 13:25:22 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6E616AB-A898-C4EA-CA8F-A10539D47712"/>
+<colUsage columnID="DE604826-65DE-B8AD-0AD5-B82BF54B2546"/>
+<colUsage columnID="CED8B175-B5AE-EBB3-3294-DAEF03D3E9FF"/>
+<colUsage columnID="F055CB93-BE1A-C730-5629-63B3CE1D298F"/>
+<colUsage columnID="1455D473-46C8-B6C5-AFB4-32A179169EF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

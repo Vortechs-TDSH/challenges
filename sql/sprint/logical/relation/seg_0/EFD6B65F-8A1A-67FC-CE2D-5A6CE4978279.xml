@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Criarv2" directorySegmentName="seg_0" id="EFD6B65F-8A1A-67FC-CE2D-5A6CE4978279">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:24:47 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<sourcePk>0EDE86DA-71C3-8EA0-0A05-9DCB71D1C008</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6714B237-CE4F-973C-68FC-148CA5500B48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1A31BBC0-3975-4A56-17DC-AA120E48BB70</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D7A6A24-0B9E-5AAF-3167-3D3C310378BA" name="T_CLG_CHAMADA">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 11:51:06 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_chamada" id="58608BA0-5951-D079-4F45-E53656E7F830">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 11:52:28 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_duracao" id="45435302-E9E3-2EEF-99EB-CCABB9AEDFFD">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:15:34 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_consulta" id="37FBC6BA-9501-4843-6D8E-326DCB51ED27">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:26:00 UTC</createdTime>
+<generatorID>73D884DC-620F-35B0-3947-749674C577BF</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<referedAttribute>8E633E75-120E-94E7-AA7C-D2AC6E0CF0F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="457FE65D-6370-BA42-9CC7-B129E176AA33" name="T_CHALLENGE_CHAMADA PK">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 11:53:40 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>58608BA0-5951-D079-4F45-E53656E7F830</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

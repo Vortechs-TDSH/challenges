@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="acessar" directorySegmentName="seg_0" id="73D884DC-620F-35B0-3947-749674C577BF">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:26:00 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<engineerTo>
+<item key="6E99A39E-5560-1FB7-7095-0E1009583B46" value="true"/>
+</engineerTo>
+<sourcePk>994EC7E5-41E3-301A-D583-2FB2638CAEC7</sourcePk>
+<targetPk>457FE65D-6370-BA42-9CC7-B129E176AA33</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1A31BBC0-3975-4A56-17DC-AA120E48BB70</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2D7A6A24-0B9E-5AAF-3167-3D3C310378BA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6AB24AF-655F-1D0B-72D8-E9DE965E3CEA" name="T_CLG_CONSULTA">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>1A31BBC0-3975-4A56-17DC-AA120E48BB70</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_consulta" id="D7D4B160-A98F-F331-ABD9-63ADEC7F81B2">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>8E633E75-120E-94E7-AA7C-D2AC6E0CF0F6</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_consulta" id="0E0AAFD9-4770-461E-56A1-4768D34025AE">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>DB835BF6-F399-0370-3E71-849944C63141</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_consulta" id="9516C6E4-E576-6602-AE45-04A9CF76D009">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>4DD1BE28-5B14-D61A-9596-FD786EC33A07</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_paciente" id="D023C4CF-D6AF-8CAE-A070-B325CEF9E16E">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>56696B6F-0066-16CA-F663-6D4E9F2B6B64</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99CE339C-F118-1E4A-8A4E-EFA1F16215B9" referredColumn="11C26D52-0C83-0AFD-35D6-0434D8F0738C"/>
+</associations>
+</Column>
+<Column name="cd_especialista" id="AA6031FE-6FE4-7DF3-E7EC-45DFD8A0E6A9">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>EF8DCA4A-A3C8-588C-F450-FC2C6FCBBFF8</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE6389EE-E244-5B78-856B-E9E73C16E8B8" referredColumn="BBBCE7A5-A572-97EC-0633-142293DAA2DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89CCAEB5-A0B9-C067-F4EA-8CF3D0B983C0" name="PK_CLG_CONSULTA">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>994EC7E5-41E3-301A-D583-2FB2638CAEC7</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7D4B160-A98F-F331-ABD9-63ADEC7F81B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09DB1242-A044-FB6C-34EA-4C179DA0E144" name="FK_CLG_CONSULTA_PAC">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>EC65BBCE-8B2F-A434-731D-0D9C8929DA0B</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D023C4CF-D6AF-8CAE-A070-B325CEF9E16E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6B3BCFB-8302-DA13-F0FF-17070B805409" name="FK_CLG_CONSULTA_ESP">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>EFD6B65F-8A1A-67FC-CE2D-5A6CE4978279</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA6031FE-6FE4-7DF3-E7EC-45DFD8A0E6A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_CLG_CONSULTA" directorySegmentName="seg_0" id="1EA6050D-6BF3-16AD-5C54-B6F302235348">
+<createdBy>Henrique</createdBy>
+<createdTime>2021-09-08 13:28:41 UTC</createdTime>
+<ownerDesignName>sprint</ownerDesignName>
+<rule><![CDATA[VL_CONSULTA > 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

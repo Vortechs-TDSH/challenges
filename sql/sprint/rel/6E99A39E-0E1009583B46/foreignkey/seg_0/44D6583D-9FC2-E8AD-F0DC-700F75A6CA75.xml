@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="44D6583D-9FC2-E8AD-F0DC-700F75A6CA75" containerWithKeyObject="FC789744-1898-5DAD-9E50-E8083473215A" localFKIndex="107AC7C3-86E0-6A43-7BEC-158E3FF0D8F0" name="FK_CLG_AGENDA_CONSULTA">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>34EF4980-B72D-3F83-C083-D9E0F57D2F39</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<referredTableLongName>T_CLG_CONSULTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A6AB24AF-655F-1D0B-72D8-E9DE965E3CEA</referredTableID>
+<keyObject>89CCAEB5-A0B9-C067-F4EA-8CF3D0B983C0</keyObject>
+<referredKeyID>89CCAEB5-A0B9-C067-F4EA-8CF3D0B983C0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_consulta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

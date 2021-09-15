@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FE6389EE-E244-5B78-856B-E9E73C16E8B8" containerWithKeyObject="A6AB24AF-655F-1D0B-72D8-E9DE965E3CEA" localFKIndex="E6B3BCFB-8302-DA13-F0FF-17070B805409" name="FK_CLG_CONSULTA_ESP">
+<createdBy>Daniel</createdBy>
+<createdTime>2021-09-08 12:35:01 UTC</createdTime>
+<generatorID>EFD6B65F-8A1A-67FC-CE2D-5A6CE4978279</generatorID>
+<ownerDesignName>sprint</ownerDesignName>
+<referredTableLongName>T_CLG_ESPECIALISTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F75D3A2-2177-D44F-CB32-4CEBBD1A8534</referredTableID>
+<keyObject>D4C69DDE-0F2D-636E-B8DC-1D26C6258A6A</keyObject>
+<referredKeyID>D4C69DDE-0F2D-636E-B8DC-1D26C6258A6A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_especialista</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
