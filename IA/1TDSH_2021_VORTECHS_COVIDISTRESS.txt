@@ -1,0 +1,33 @@
+Grupo: Vortechs
+Turma: 1TDSH
+
+Integrantes:
+Daniel Augusto Sato Yamashita - RM 88397
+Guilherme Vieira de Paiva - RM 88492
+João Henrique Freire de Sá - RM 88822
+Rodrigo Avella - RM 87749
+
+
+Parte 1:
+Nosso projeto irá coletar dados através do cadastro, sendo esses dados nome, e-mail, CPF, CNPJ, CRM, CRP, data de nascimento, gênero e entre outros. Esses só serão inseridos no banco de dados caso o usuário concorde com os termos de uso e a política de privacidade, os quais deverão informar a necessidade dessa coleta seguindo os protocolos de segurança de dados.
+
+Parte 2:
+Tabela 1:
+Conteúdo: Tamanho da amostra, proporções de dados válidos, média de idade e desvio padrão entre os países com mais de 200 participantes.
+Informações tiradas de: https://www.nature.com/articles/s41597-020-00784-9.pdf
+
+Tabela 2:
+Conteúdo: Proporção do atual estado de isolamento entre países com mais de 200 participantes. 
+Informações tiradas de: https://www.nature.com/articles/s41597-020-00784-9.pdf
+
+Tabela 3:
+Conteúdo: Proporção do risco atual de infecção em países com mais de 200 participantes.
+Informações tiradas de: https://www.nature.com/articles/s41597-020-00784-9.pdf
+
+Tabela 4:
+Conteúdo: Proporção do estado civil entre países com mais de 200 participantes. 
+Informações tiradas de: https://www.nature.com/articles/s41597-020-00784-9.pdf
+
+Tabela 5:
+Conteúdo: São as respostas de cada participante do questionario, tendo informações como idade, gênero, educação, emprego, pais, estado civil e entre outras informações.
+Informações tiradas de: https://osf.io/z39us/
